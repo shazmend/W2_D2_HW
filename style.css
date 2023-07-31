@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.TopImg{
+    background-image: url(soup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    height: 60vh;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 280px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+    font-weight: lighter;
+    text-align: left;
+    padding: 60px;
+}
+
+.recipe_info li{
+    list-style: none;
+    display: inline;
+}
+
+.recipe_info{
+    text-align: center;
+    font-size: 14px;
+
+}
+
+hr.line {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px lighter rgba(66, 65, 65, 0.366);
+    width:80%;
+    margin-left: 90px;
+    margin-right: 100px;
+  }
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.Ingredients{
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.Ingredients li{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+    list-style:none;
+    font-weight: lighter;
+}
+
+.cooking_info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* border: 1px solid rgb(157, 0, 255); */
+}
+
+body {
+    padding-bottom: 50px;
+}
